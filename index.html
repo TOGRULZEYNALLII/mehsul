@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <main id="main">
+      <form id="form">
+        <div id="image" class="image">
+          <img src="/assets/blue.jpg" alt="mainimg" id="mainimg" />
+          <img
+            src="/assets/download.jpg"
+            alt="iphone"
+            value="silver"
+            id="silver"
+            class="img"
+          />
+          <img
+            src="/assets/blue.jpg"
+            alt="blue"
+            value="blue"
+            id="blue"
+            class="img"
+          />
+          <img
+            src="/assets/red.jpg"
+            alt="red"
+            value="red"
+            id="red"
+            class="img"
+          />
+        </div>
+        <p class="p">
+          mehsul haqqinda melumat Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Repudiandae, eligendi illo beatae distinctio
+          praesentium voluptatem sunt. Recusandae impedit nobis dicta.
+        </p>
+        <div class="container">
+          <input type="text" placeholder="name" id="name" />
+          <input type="text" placeholder="sirname" id="sirname" />
+        </div>
+        <div class="container-2">
+          <input type="email" placeholder="email" id="email" />
+          <input type="text" placeholder="address" id="address" />
+        </div>
+        <div class="container-3">
+          <label
+            >is addresimdir
+            <input
+              id="jobaddress"
+              type="radio"
+              name="address"
+              value="isaddresi"
+            />
+          </label>
+          <label
+            >ev addresimdir
+
+            <input
+              type="radio"
+              id="homeaddress"
+              name="address"
+              value="evaddresi"
+            />
+          </label>
+        </div>
+        <div class="container-3">
+          <label
+            >mavi
+            <input id="mavi" type="radio" name="reng" value="mavi" />
+          </label>
+          <label
+            >qirmizi
+
+            <input type="radio" id="qirmizi" name="reng" value="qirmizi" />
+          </label>
+          <label
+            >silver
+
+            <input type="radio" id="silver" name="reng" value="silver" />
+          </label>
+        </div>
+        <div class="container-4">
+          <label
+            >kuryerle catdirilma
+            <input
+              type="radio"
+              id="kuryer"
+              checked="checked"
+              name="radio"
+              value="kuryerle catdirilma"
+            />
+            <label
+              >unvandan goturulme
+              <input
+                id="unvandan"
+                type="radio"
+                name="radio"
+                value="unvandan goturulme"
+              />
+            </label>
+          </label>
+        </div>
+        <div class="container-5">
+          <label>
+            kartla odenis
+            <input
+              id="kartla"
+              type="radio"
+              name="radio2"
+              value="kartla odenis"
+            />
+            <label> nagd odenis </label>
+            <input id="nagd" type="radio" name="radio2" value="nagd odenis" />
+          </label>
+        </div>
+        <div class="container-textera">
+          <select name="" id="select">
+            <option value="baki" id="baki">Baki</option>
+            <option value="naxcivan" id="naxcivan">Naxcivan</option>
+            <option value="gence" id="gence">Gence</option>
+          </select>
+        </div>
+        <div class="container-submit">
+          <button class="button" id="button">Submit</button>
+          <button class="button" id="cancel">Cancel</button>
+        </div>
+      </form>
+      <div class="container-result" id="result">
+        <ul id="ul"></ul>
+      </div>
+    </main>
+    <script src="/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main {
+  margin-top: 400px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.button {
+  border-radius: 7px;
+  background-color: orange;
+  color: white;
+  width: 100px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: red;
+  color: white;
+}
+
+.container-result {
+  height: 300px;
+  width: 340px;
+}
+.p {
+  width: 400px;
+}
+.image {
+  position: absolute;
+  right: 460px;
+  bottom: 400px;
+}
+.img {
+  cursor: pointer;
+}
